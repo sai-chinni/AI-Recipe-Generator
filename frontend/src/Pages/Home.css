@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.left-panel {
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.center-panel {
+    width: 50%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.right-panel {
+    width: 25%;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
