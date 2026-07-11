@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://ai-recipe-generator-ebon.vercel.app",
+        "https://ai-recipe-generator-1-bndh.onrender.com",
     ],
     allow_credentials=False,
     allow_methods=["*"],
